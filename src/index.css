@@ -379,3 +379,7 @@ EMPTY STAR
 </svg>
 
 */
+
+img {
+  filter: blur(15px);
+}
