@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# 🍿 usePopcorn React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Preview](./public/preview.png)
 
-## Available Scripts
+This is a React application that allows users to search for movies using the OMDB API. The app displays search results, allows users to add movies to a watched list, and provides key details such as IMDb ratings and runtime.
 
-In the project directory, you can run:
+🔗 **Live Demo:** [usePopcorn](https://usepopcorn-mo3bassias-projects.vercel.app)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🔍 **Search Movies**: Users can search for any movie by title, powered by the OMDB API.
+- 🍿 **Add to Watched List**: Users can add movies to their "Watched" list for easy reference.
+- ⭐ **IMDb Ratings**: Display movie details, including IMDb ratings and runtime.
+- 🧮 **Average Ratings**: The app calculates and displays the average IMDb rating, user rating, and runtime of watched movies.
+- 🔔 **Dynamic Title Update**: The app dynamically updates the page title based on the selected movie.
+- ❌ **Watched List Management**: Users can easily remove movies from the "Watched" list.
+- ⏳ **Loading Indicators**: Shows a loading indicator while fetching movies from the API.
+- 🛑 **Error Handling**: Graceful error handling when no movies are found or when there’s a network issue.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies Applied
 
-### `npm run build`
+- ⚛️ **React**: Utilized React hooks (`useState`, `useEffect`) for managing state and side effects.
+- 📡 **OMDB API**: Integrated with the OMDB API to fetch real-time movie data.
+- 🎨 **CSS Modules**: Used for styling different components to ensure maintainable and scalable styles.
+- 💫 **Custom Hooks**: Implemented custom hooks for various functionalities like handling selected movies and updating the title dynamically.
+- 🌟 **StarRating Component**: Added a custom component for handling user ratings with stars.
+- 🧮 **Utility Functions**: Created a reusable function to calculate the average of ratings and runtime.
+- ⌨️ **Keyboard Event Listeners**: Managed keyboard events, such as `Escape` to close movie details, for enhanced user experience.
+- 🔄 **Component Reusability**: Made components like `MovieList`, `WatchedList`, and `Box` reusable and modular.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📸 Preview
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here's a sneak peek of the app's interface:
 
-### `npm run eject`
+![Project Preview](./public/preview.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Feel free to check out the live demo and explore the features! 😊
+e layout.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **I am really sorry for bluring images and posters of films, this is for private reasons**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Responsive Design**: Ensures the app looks great on any device.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy your movie experience with **usePopcorn**! 🍿✨
