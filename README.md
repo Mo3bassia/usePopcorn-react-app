@@ -19,6 +19,7 @@ This is a React application that allows users to search for movies using the OMD
 - 💾 **Local Storage Integration**: The app saves the watched list in the browser's `localStorage` to persist user preferences across sessions.
 - ⏳ **Loading Indicators**: Shows a loading indicator while fetching movies from the API.
 - 🛑 **Error Handling**: Graceful error handling when no movies are found or when there’s a network issue.
+- ⌨️ **Keyboard Shortcuts**: Users can use the `Escape` key to close the movie details and clear the search input. The `Enter` key focuses on the search input for quick access.
 
 ---
 
@@ -30,29 +31,25 @@ This is a React application that allows users to search for movies using the OMD
 - 💫 **Custom Hooks**: Implemented custom hooks for various functionalities like handling selected movies and updating the title dynamically.
 - 🌟 **StarRating Component**: Added a custom component for handling user ratings with stars.
 - 🧮 **Utility Functions**: Created a reusable function to calculate the average of ratings and runtime.
-- ⌨️ **Keyboard Event Listeners**: Managed keyboard events, such as `Escape` to close movie details, for enhanced user experience.
+- ⌨️ **Keyboard Event Listeners**: Managed keyboard events, such as `Escape` to close movie details, clear search input, and `Enter` to focus the search bar for smoother user experience.
 - 🔄 **Component Reusability**: Made components like `MovieList`, `WatchedList`, and `Box` reusable and modular.
 
 ---
 
-## 📸 Preview
-
-Here's a sneak peek of the app's interface:
-
-![Project Preview](./public/preview.png)
-
----
-
 Feel free to check out the live demo and explore the features! 😊
-e layout.
 
-- **I am really sorry for bluring images and posters of films, this is for private reasons**
-
+- **I am really sorry for blurring images and posters of films, this is for private reasons**
 - **Responsive Design**: Ensures the app looks great on any device.
 
 Enjoy your movie experience with **usePopcorn**! 🍿✨
 
+---
+
 ## 🔄 Changelog
+
+### [1.5.0] - 2024-10-19
+
+- ⌨️ **Keyboard Shortcuts**: Added functionality for the `Escape` key to close movie details and clear the search input. Also, added the ability to focus the search input field using the `Enter` key for smoother interaction.
 
 ### [1.1.0] - 2024-10-19
 
