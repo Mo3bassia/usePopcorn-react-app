@@ -9,7 +9,9 @@ const fixedImage = "https://picsum.photos/200/300";
 
 export default function App() {
   const [movies, setMovies] = useState([]);
-  const [watched, setWatched] = useState([]);
+  const [watched, setWatched] = useState(() =>
+    JSON.parse(localStorage.getItem("watchedItems") || [])
+  );
   const [error, setError] = useState("");
   const [selectedId, setSelectedId] = useState(0);
   const [query, setQuery] = useState("");
@@ -23,6 +25,13 @@ export default function App() {
       onCloseMovie();
     }
   }
+
+  useEffect(
+    function () {
+      localStorage.setItem("watchedItems", JSON.stringify(watched));
+    },
+    [watched]
+  );
 
   useEffect(
     function () {

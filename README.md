@@ -16,6 +16,7 @@ This is a React application that allows users to search for movies using the OMD
 - 🧮 **Average Ratings**: The app calculates and displays the average IMDb rating, user rating, and runtime of watched movies.
 - 🔔 **Dynamic Title Update**: The app dynamically updates the page title based on the selected movie.
 - ❌ **Watched List Management**: Users can easily remove movies from the "Watched" list.
+- 💾 **Local Storage Integration**: The app saves the watched list in the browser's `localStorage` to persist user preferences across sessions.
 - ⏳ **Loading Indicators**: Shows a loading indicator while fetching movies from the API.
 - 🛑 **Error Handling**: Graceful error handling when no movies are found or when there’s a network issue.
 
@@ -50,3 +51,10 @@ e layout.
 - **Responsive Design**: Ensures the app looks great on any device.
 
 Enjoy your movie experience with **usePopcorn**! 🍿✨
+
+## 🔄 Changelog
+
+### [1.1.0] - 2024-10-19
+
+- 💾 **Local Storage Integration**: Added functionality to save the watched list in local storage for persistence.
+- 🐛 **Bug Fixes**: Resolved issues with movie details not displaying correctly.
