@@ -10,7 +10,9 @@ const fixedImage = "https://picsum.photos/200/300";
 export default function App() {
   const [movies, setMovies] = useState([]);
   const [watched, setWatched] = useState(() =>
-    JSON.parse(localStorage.getItem("watchedItems") || [])
+    !localStorage.getItem("watchedItems")
+      ? []
+      : JSON.parse(localStorage.getItem("watchedItems"))
   );
   const [error, setError] = useState("");
   const [selectedId, setSelectedId] = useState(0);
